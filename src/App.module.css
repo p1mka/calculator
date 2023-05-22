@@ -1,0 +1,88 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  width: 200px;
+  height: 350px;
+  background: linear-gradient(217deg, #898383, #fafafa);
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 3px 5px;
+  color: black;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  background: white;
+  box-shadow: inset 1px -1em 3em rgb(163 158 158), 0px 0px 3px 1px rgb(0 0 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.number:hover {
+  transform: scale(110%);
+  transition: ease-in 0.2s;
+}
+.displayBlock {
+  margin-top: 10px;
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  font-size: 1.5rem;
+}
+.operationsBlock {
+  margin-top: 10px;
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+}
+.operation {
+  font-size: 1.5rem;
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  margin: 5px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  background: darkorange;
+  box-shadow: inset 1px -1em 3em darkorange, 0px 0px 3px 1px rgb(0 0 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.clearButton {
+  font-size: 1.5rem;
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  margin: 5px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  background: darkred;
+  cursor: pointer;
+}
+
+.result {
+  color: green;
+  font-weight: bold;
+  transition: ease-in 0.3s;
+}
